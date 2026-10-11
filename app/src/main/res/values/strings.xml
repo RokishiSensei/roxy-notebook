@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roxy notebook</string>
+
+    <!-- Bottom navigation / rail -->
+    <string name="tab_library">生词本</string>
+    <string name="tab_review">复习</string>
+    <string name="tab_chat">AI 问答</string>
+    <string name="tab_settings">设置</string>
+
+    <!-- Library screen -->
+    <string name="library_title">生词本</string>
+    <string name="library_subtitle_all">共 %1$d 个词条</string>
+    <string name="library_subtitle_filtered">%1$d / %2$d 个词条</string>
+    <string name="action_add">添加生词</string>
+    <string name="action_jump_letter">按字母跳转</string>
+    <string name="search_hint">搜索单词、释义、标签或笔记</string>
+    <string name="filter_starred">⭐ 重点</string>
+    <string name="empty_library_title">开始积累你的生词</string>
+    <string name="empty_library_subtitle">按首字母自动分类整理。添加单词、词性、中英文释义，随时复习巩固。</string>
+    <string name="empty_library_action">导入示例词条试试</string>
+    <string name="empty_search_title">没有匹配的词条</string>
+    <string name="empty_search_subtitle">换个关键词，或者清空筛选条件再看看。</string>
+    <string name="empty_search_action">清空筛选</string>
+
+    <!-- Word rows -->
+    <string name="speak">朗读</string>
+    <string name="speak_slow">慢速</string>
+    <string name="mark_starred">标记重点</string>
+    <string name="meaning_missing">（未填写中文释义）</string>
+
+    <!-- Review / quiz -->
+    <string name="review_title">复习</string>
+    <string name="quiz_exit">退出测验</string>
+    <string name="review_exit">结束复习</string>
+    <string name="reveal_meaning">查看释义</string>
+    <string name="grade_forgot">忘了</string>
+    <string name="grade_remembered">记住了</string>
+    <string name="auto_speak">自动朗读</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_close">关闭</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_ok">好</string>
+
+    <!-- Letter jump dialog -->
+    <string name="letter_grid_title">跳转到字母</string>
+
+    <!-- Review home -->
+    <string name="review_today_goal">今日目标</string>
+    <string name="review_goal_done">已完成，继续保持！</string>
+    <string name="review_goal_left">还差 %1$d 个词</string>
+    <string name="review_due">待复习</string>
+    <string name="review_starred">重点词</string>
+    <string name="review_mastered">已掌握</string>
+    <string name="review_flashcards">记忆卡片</string>
+    <string name="review_mode_due">复习今天该背的词</string>
+    <string name="review_mode_due_detail">%1$d 个词条 · 新词优先</string>
+    <string name="review_mode_due_empty">今天没有待复习的词，可以随机抽背</string>
+    <string name="review_mode_starred">只背重点词</string>
+    <string name="review_mode_starred_detail">%1$d 个词条</string>
+    <string name="review_mode_starred_empty">还没有标记 ⭐ 的重点词</string>
+    <string name="review_mode_shuffle">随机抽背</string>
+    <string name="review_mode_shuffle_detail">打乱全部 %1$d 个词条</string>
+    <string name="review_quizzes">测验</string>
+    <string name="review_quiz_choice">中译英选择</string>
+    <string name="review_quiz_choice_detail">看中文选英文，四选一</string>
+    <string name="review_quiz_spelling">看中文拼写</string>
+    <string name="review_quiz_spelling_detail">输入英文拼写，检验真实掌握度</string>
+    <string name="review_empty_title">先添加一些生词</string>
+    <string name="review_empty_subtitle">有了词条之后，这里会出现今天该复习的单词、记忆卡片和测验。</string>
+
+    <!-- Flashcard session -->
+    <string name="card_counter">卡片 %1$d / %2$d</string>
+    <string name="card_tap_hint">点击下方按钮查看释义</string>
+    <string name="card_note">笔记：%1$s</string>
+    <string name="session_done_title">复习完成</string>
+    <string name="session_remembered">记住了 %1$d / %2$d</string>
+    <string name="session_back">返回复习首页</string>
+    <string name="session_empty_title">这一轮结束啦</string>
+    <string name="session_empty_subtitle">没有更多卡片了。</string>
+
+    <!-- Quiz -->
+    <string name="quiz_result_title">测验结果</string>
+    <string name="quiz_question_counter">第 %1$d / %2$d 题</string>
+    <string name="quiz_correct_count">答对 %1$d / %2$d</string>
+    <string name="quiz_done">完成</string>
+    <string name="quiz_choice_prompt">下列哪个单词的意思是：</string>
+    <string name="quiz_spelling_prompt">请根据中文释义拼写英文：</string>
+    <string name="quiz_next">下一题</string>
+    <string name="quiz_check">检查</string>
+    <string name="quiz_spelling_label">英文拼写</string>
+    <string name="quiz_spelling_ok">✓ 拼写正确</string>
+    <string name="quiz_spelling_bad">✗ 正确答案：%1$s</string>
+    <string name="quiz_spelling_case">不区分大小写</string>
+    <string name="quiz_spelling_hint">提示：%1$s（%2$d 个字母）</string>
+    <string name="quiz_listen">听发音</string>
+    <string name="quiz_empty_title">没有可用的题目</string>
+    <string name="quiz_empty_subtitle">至少需要 4 个带中文释义的词条才能生成选择题。</string>
+
+    <!-- Statistics -->
+
+    <!-- Editor -->
+    <string name="editor_new_title">添加生词</string>
+    <string name="editor_edit_title">编辑生词</string>
+    <string name="editor_word_label">英文单词 / 词组</string>
+    <string name="editor_phonetic_label">音标（可选）</string>
+    <string name="editor_senses_header">释义与词性</string>
+    <string name="editor_sense_number">释义 %1$d</string>
+    <string name="editor_add_sense">+ 添加一条词性 / 释义</string>
+    <string name="editor_remove_sense">删除这条释义</string>
+    <string name="editor_meaning_zh">中文释义</string>
+    <string name="editor_meaning_en">英文释义（可选）</string>
+    <string name="editor_example">例句（可选）</string>
+    <string name="editor_status_header">复习状态</string>
+    <string name="editor_meta_header">来源、标签与笔记</string>
+    <string name="editor_source">来源（阅读 / 听力 / 课堂…）</string>
+    <string name="editor_tags">标签（用逗号分隔）</string>
+    <string name="editor_note">我的笔记（易混淆点、记忆法…）</string>
+    <string name="editor_tip_title">小提示</string>
+    <string name="editor_tip_body">词条会按首字母自动归入 A–Z 分组；多个词性可以分开填写，中文释义会用于「中译英」测验题。</string>
+    <string name="action_save">保存</string>
+
+    <!-- Settings detail -->
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme">主题模式</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_dynamic_color">使用系统取色（Material You）</string>
+    <string name="settings_dynamic_color_detail">Android 12 及以上跟随壁纸配色</string>
+    <string name="settings_compact">紧凑列表</string>
+    <string name="settings_compact_detail">一屏显示更多词条</string>
+    <string name="settings_learning">学习</string>
+    <string name="settings_daily_goal">每日目标：%1$d 个词</string>
+    <string name="settings_front_chinese">卡片正面显示中文</string>
+    <string name="settings_front_chinese_detail">开启后为「中 → 英」回忆方向</string>
+    <string name="settings_auto_speak_detail">进入卡片时自动播放发音</string>
+    <string name="settings_haptics">触感反馈</string>
+    <string name="settings_haptics_detail">翻卡与评分时轻微震动</string>
+    <string name="settings_sort_recent">列表按添加时间排序</string>
+    <string name="settings_sort_recent_detail">关闭则按 A–Z 首字母分组排序</string>
+    <string name="settings_data">数据（本地保存，共 %1$d 个词条）</string>
+    <string name="settings_export_json">导出为 JSON</string>
+    <string name="settings_export_json_detail">包含全部字段，可用于备份与恢复</string>
+    <string name="settings_export_csv">导出为 CSV</string>
+    <string name="settings_export_csv_detail">方便在 Excel / 表格里查看编辑</string>
+    <string name="settings_import">从文件导入</string>
+    <string name="settings_import_detail">支持本 App 导出的 JSON 或 CSV</string>
+    <string name="settings_import_samples">导入示例词条</string>
+    <string name="settings_import_samples_detail">添加 7 个带完整释义的演示单词</string>
+    <string name="settings_clear">清空全部词条</string>
+    <string name="settings_clear_detail">此操作不可撤销，建议先导出备份</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_about_desc">按首字母整理的英语生词本 · Jetpack Compose + Material 3</string>
+    <string name="settings_about_sdk">targetSdk 37（Android 17），最低支持 Android 8.0</string>
+    <string name="settings_clear_confirm_title">清空全部词条？</string>
+    <string name="settings_clear_confirm_body">将删除本地保存的 %1$d 个词条，且无法恢复。</string>
+    <string name="settings_clear_confirm_action">确认清空</string>
+    <string name="settings_import_dialog_title">数据导入</string>
+    <string name="settings_export_ok">已生成备份文件</string>
+    <string name="settings_export_fail">导出失败</string>
+    <string name="settings_import_fail">读取文件失败</string>
+    <string name="settings_import_error">导入失败：%1$s</string>
+    <string name="settings_import_ok">成功导入 %1$d 个词条</string>
+    <string name="settings_export_subject">Roxy notebook 备份</string>
+    <string name="settings_export_chooser">导出词库</string>
+    <string name="delete_title">删除词条</string>
+    <string name="delete_body">确定要删除「%1$s」吗？</string>
+</resources>

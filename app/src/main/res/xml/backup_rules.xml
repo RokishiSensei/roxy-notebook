@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backs up the word list, groups, settings and AI endpoint configuration. -->
+<full-backup-content>
+    <include domain="sharedpref" path="lexi_wordbook.xml" />
+    <include domain="sharedpref" path="lexi_settings.xml" />
+    <include domain="sharedpref" path="lexi_ai.xml" />
+</full-backup-content>

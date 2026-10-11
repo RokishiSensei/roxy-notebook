@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Roxy notebook</string>
+
+    <!-- Bottom navigation / rail -->
+    <string name="tab_library">Words</string>
+    <string name="tab_review">Review</string>
+    <string name="tab_chat">AI chat</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Library screen -->
+    <string name="library_title">Word list</string>
+    <string name="library_subtitle_all" tools:ignore="PluralsCandidate">%1$d entries</string>
+    <string name="library_subtitle_filtered" tools:ignore="PluralsCandidate">%1$d / %2$d entries</string>
+    <string name="action_add">Add word</string>
+    <string name="action_jump_letter">Jump to letter</string>
+    <string name="search_hint">Search word, meaning, tag or note</string>
+    <string name="filter_starred">⭐ Starred</string>
+    <string name="empty_library_title">Start your word list</string>
+    <string name="empty_library_subtitle">Entries are grouped A–Z automatically. Add a word with its part of speech and meanings, then review it any time.</string>
+    <string name="empty_library_action">Import sample words</string>
+    <string name="empty_search_title">No matching entries</string>
+    <string name="empty_search_subtitle">Try another keyword, or clear the filters.</string>
+    <string name="empty_search_action">Clear filters</string>
+
+    <!-- Word rows -->
+    <string name="speak">Pronounce</string>
+    <string name="speak_slow">Slow</string>
+    <string name="mark_starred">Mark as starred</string>
+    <string name="meaning_missing">(no Chinese meaning yet)</string>
+
+    <!-- Review / quiz -->
+    <string name="review_title">Review</string>
+    <string name="quiz_exit">Quit quiz</string>
+    <string name="review_exit">End review</string>
+    <string name="reveal_meaning">Show meaning</string>
+    <string name="grade_forgot">Forgot</string>
+    <string name="grade_remembered">Remembered</string>
+    <string name="auto_speak">Auto pronounce</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_ok">OK</string>
+
+    <!-- Letter jump dialog -->
+    <string name="letter_grid_title">Jump to letter</string>
+
+    <!-- Review home -->
+    <string name="review_today_goal">Today\'s goal</string>
+    <string name="review_goal_done">Done — keep it up!</string>
+    <string name="review_goal_left" tools:ignore="PluralsCandidate">%1$d words to go</string>
+    <string name="review_due">Due</string>
+    <string name="review_starred">Starred</string>
+    <string name="review_mastered">Mastered</string>
+    <string name="review_flashcards">Flashcards</string>
+    <string name="review_mode_due">Review words due today</string>
+    <string name="review_mode_due_detail" tools:ignore="PluralsCandidate">%1$d entries · new words first</string>
+    <string name="review_mode_due_empty">Nothing due today — try a random round</string>
+    <string name="review_mode_starred">Starred words only</string>
+    <string name="review_mode_starred_detail" tools:ignore="PluralsCandidate">%1$d entries</string>
+    <string name="review_mode_starred_empty">No ⭐ starred words yet</string>
+    <string name="review_mode_shuffle">Random round</string>
+    <string name="review_mode_shuffle_detail" tools:ignore="PluralsCandidate">Shuffle all %1$d entries</string>
+    <string name="review_quizzes">Quizzes</string>
+    <string name="review_quiz_choice">Chinese → English</string>
+    <string name="review_quiz_choice_detail">Pick the right English word out of four</string>
+    <string name="review_quiz_spelling">Spelling test</string>
+    <string name="review_quiz_spelling_detail">Type the English word from its Chinese meaning</string>
+    <string name="review_empty_title">Add some words first</string>
+    <string name="review_empty_subtitle">Once you have entries, today\'s due words, flashcards and quizzes show up here.</string>
+
+    <!-- Flashcard session -->
+    <string name="card_counter">Card %1$d / %2$d</string>
+    <string name="card_tap_hint">Tap the button below to reveal the meaning</string>
+    <string name="card_note">Note: %1$s</string>
+    <string name="session_done_title">Review complete</string>
+    <string name="session_remembered">Remembered %1$d / %2$d</string>
+    <string name="session_back">Back to review</string>
+    <string name="session_empty_title">Round finished</string>
+    <string name="session_empty_subtitle">No more cards.</string>
+
+    <!-- Quiz -->
+    <string name="quiz_result_title">Quiz result</string>
+    <string name="quiz_question_counter">Question %1$d / %2$d</string>
+    <string name="quiz_correct_count" tools:ignore="PluralsCandidate">%1$d of %2$d correct</string>
+    <string name="quiz_done">Done</string>
+    <string name="quiz_choice_prompt">Which word means:</string>
+    <string name="quiz_spelling_prompt">Spell the English word for:</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_check">Check</string>
+    <string name="quiz_spelling_label">English spelling</string>
+    <string name="quiz_spelling_ok">✓ Correct</string>
+    <string name="quiz_spelling_bad">✗ Answer: %1$s</string>
+    <string name="quiz_spelling_case">Case-insensitive</string>
+    <string name="quiz_spelling_hint" tools:ignore="PluralsCandidate">Hint: %1$s (%2$d letters)</string>
+    <string name="quiz_listen">Listen</string>
+    <string name="quiz_empty_title">No questions available</string>
+    <string name="quiz_empty_subtitle">You need at least 4 entries with a Chinese meaning for multiple choice.</string>
+
+    <!-- Statistics -->
+
+    <!-- Editor -->
+    <string name="editor_new_title">Add word</string>
+    <string name="editor_edit_title">Edit word</string>
+    <string name="editor_word_label">English word / phrase</string>
+    <string name="editor_phonetic_label">Phonetic (optional)</string>
+    <string name="editor_senses_header">Meanings &amp; parts of speech</string>
+    <string name="editor_sense_number">Meaning %1$d</string>
+    <string name="editor_add_sense">+ Add another part of speech / meaning</string>
+    <string name="editor_remove_sense">Remove this meaning</string>
+    <string name="editor_meaning_zh">Chinese meaning</string>
+    <string name="editor_meaning_en">English definition (optional)</string>
+    <string name="editor_example">Example sentence (optional)</string>
+    <string name="editor_status_header">Review status</string>
+    <string name="editor_meta_header">Source, tags and notes</string>
+    <string name="editor_source">Source (reading / listening / class…)</string>
+    <string name="editor_tags">Tags (comma separated)</string>
+    <string name="editor_note">My notes (confusions, mnemonics…)</string>
+    <string name="editor_tip_title">Good to know</string>
+    <string name="editor_tip_body">Entries are grouped A–Z by their first letter. Add one meaning per part of speech; the Chinese meanings feed the Chinese → English quiz.</string>
+    <string name="action_save">Save</string>
+
+    <!-- Settings detail -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Dynamic color (Material You)</string>
+    <string name="settings_dynamic_color_detail">Follows your wallpaper on Android 12+</string>
+    <string name="settings_compact">Compact list</string>
+    <string name="settings_compact_detail">Fit more entries on screen</string>
+    <string name="settings_learning">Learning</string>
+    <string name="settings_daily_goal" tools:ignore="PluralsCandidate">Daily goal: %1$d words</string>
+    <string name="settings_front_chinese">Show Chinese on the card front</string>
+    <string name="settings_front_chinese_detail">Enables the Chinese → English recall direction</string>
+    <string name="settings_auto_speak_detail">Pronounce automatically when a card appears</string>
+    <string name="settings_haptics">Haptics</string>
+    <string name="settings_haptics_detail">A subtle buzz when flipping and grading</string>
+    <string name="settings_sort_recent">Sort by date added</string>
+    <string name="settings_sort_recent_detail">Turn off to group by A–Z instead</string>
+    <string name="settings_data" tools:ignore="PluralsCandidate">Data (stored on device · %1$d entries)</string>
+    <string name="settings_export_json">Export as JSON</string>
+    <string name="settings_export_json_detail">All fields, good for backup and restore</string>
+    <string name="settings_export_csv">Export as CSV</string>
+    <string name="settings_export_csv_detail">Handy for spreadsheets</string>
+    <string name="settings_import">Import from a file</string>
+    <string name="settings_import_detail">Accepts JSON or CSV exported by this app</string>
+    <string name="settings_import_samples">Import sample words</string>
+    <string name="settings_import_samples_detail">Adds 7 fully filled demo entries</string>
+    <string name="settings_clear">Delete all entries</string>
+    <string name="settings_clear_detail">Cannot be undone — export a backup first</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_desc">An A–Z English vocabulary notebook · Jetpack Compose + Material 3</string>
+    <string name="settings_about_sdk">targetSdk 37 (Android 17), supports Android 8.0+</string>
+    <string name="settings_clear_confirm_title">Delete all entries?</string>
+    <string name="settings_clear_confirm_body" tools:ignore="PluralsCandidate">This removes all %1$d entries stored on this device and cannot be undone.</string>
+    <string name="settings_clear_confirm_action">Delete all</string>
+    <string name="settings_import_dialog_title">Import</string>
+    <string name="settings_export_ok">Backup file created</string>
+    <string name="settings_export_fail">Export failed</string>
+    <string name="settings_import_fail">Could not read the file</string>
+    <string name="settings_import_error">Import failed: %1$s</string>
+    <string name="settings_import_ok" tools:ignore="PluralsCandidate">Imported %1$d entries</string>
+    <string name="settings_export_subject">Roxy notebook backup</string>
+    <string name="settings_export_chooser">Export word list</string>
+    <string name="delete_title">Delete entry</string>
+    <string name="delete_body">Delete “%1$s”?</string>
+</resources>

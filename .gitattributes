@@ -1,0 +1,18 @@
+# Normalise line endings so the repo stays consistent across platforms.
+* text=auto
+
+# Gradle wrapper must keep its executable bit.
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.jks binary
+*.keystore binary
+
+# Keep generated/build output out of diffs and language stats.
+dist/** linguist-generated=true
+*.apk binary

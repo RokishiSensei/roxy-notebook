@@ -1,0 +1,35 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+.kotlin/
+local.properties
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Local toolchain used by the build machine (JDK, Android SDK, Gradle distribution)
+.toolchain/
+.gradle-home/
+.build-log.txt
+
+# IDE
+.idea/
+*.iml
+*.hprof
+.DS_Store
+
+# Signing material: never publish this. Anyone holding the .jks plus the passwords from
+# keystore.properties can sign an update Android accepts as coming from you.
+# The release build falls back to the debug key when these are missing.
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# The original artwork the launcher icon is generated from is third-party and not
+# covered by the MIT licence — keep it local, ship only the generated icons.
+tools/src/

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!--
+      The launcher icon ships both an adaptive variant (mipmap-anydpi-v26) and a plain
+      vector fallback for older releases. Lint notes that the -v26 qualifier is redundant
+      at minSdk 26; keeping both folders is deliberate, so the check is disabled here.
+    -->
+    <issue id="ObsoleteSdkInt">
+        <ignore path="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+    <!-- Compose preview-only helpers are referenced from @Preview functions. -->
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/values/strings.xml" />
+    </issue>
+    <!--
+      Robolectric is pinned to 4.16 on purpose: 4.17 targets a newer SDK than the one the
+      repository/parser tests need, and 4.16 works reliably with the SDK-34 runtime jar.
+    -->
+    <issue id="NewerVersionAvailable">
+        <ignore regexp="org.robolectric:robolectric" />
+    </issue>
+</lint>

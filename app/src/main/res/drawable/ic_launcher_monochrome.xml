@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Themed-icon (Android 13+) silhouette: the same wizard-hat character as the colour artwork,
+  drawn as a single flat shape inside the 108dp adaptive canvas safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- hair falling behind the shoulders -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,52 C30,42 38,35 53,35 C70,35 77,43 76,53 C78,68 78,80 74,86 L65,80 L53,83 L42,80 L32,86 C28,79 29,66 31,52 Z" />
+
+    <!-- robe / shoulders -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,75 C45,70 61,70 67,75 C73,82 76,90 77,96 L29,96 C30,90 33,82 39,75 Z" />
+
+    <!-- face -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,50 C43,43 47,39 53,39 C60,39 64,43 64,50 C64,59 60,65 53,65 C47,65 43,59 43,50 Z" />
+
+    <!-- fringe over the forehead -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,48 C37,39 43,33 53,32 C63,33 69,39 68,48 C63,45 60,50 56,46 C52,51 48,45 44,49 C42,47 40,46 38,48 Z" />
+
+    <!-- hat brim -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,41 C30,34 43,31 54,31 C66,31 79,34 87,41 C79,47 66,50 54,50 C43,50 29,47 21,41 Z" />
+
+    <!-- hat crown -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,36 C35,27 41,19 48,13 C53,21 60,29 70,34 C60,38 42,38 33,36 Z" />
+</vector>
