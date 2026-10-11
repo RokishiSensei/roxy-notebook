@@ -138,7 +138,7 @@ echo "sdk.dir=/path/to/Android/Sdk" > local.properties
 # 2) 构建
 ./gradlew :app:assembleDebug        # 产物 app/build/outputs/apk/debug/app-debug.apk
 ./gradlew :app:assembleRelease      # 产物 app/build/outputs/apk/release/app-release.apk
-./gradlew :app:testDebugUnitTest    # 106 个单元测试
+./gradlew :app:testDebugUnitTest    # 244 个单元测试
 ./gradlew :app:lintDebug            # 静态检查（当前 0 项）
 ./gradlew :app:installDebug         # 直接装到已连接设备
 ```
@@ -146,18 +146,19 @@ echo "sdk.dir=/path/to/Android/Sdk" > local.properties
 Windows 上如果工程路径含中文，`gradle.properties` 里的
 `android.overridePathCheck=true` 已经帮你关掉了 AGP 的路径检查。
 
-> 注意：本机 `gradle/wrapper/gradle-wrapper.properties` 里的 `distributionUrl` 指向了
-> 本机已解压的 Gradle 9.8.1（为了在离线/慢网环境下不重复下载 145 MB）。
-> 换到别的电脑上，请把这两行改回官方地址（文件里有注释说明），或直接用 Android Studio 打开：
+> **内存配置**：`gradle.properties` 里 `org.gradle.jvmargs=-Xmx3072m`、
+> `org.gradle.workers.max=2`、`kotlin.daemon.jvmargs=-Xmx1536m` 是**有意收紧**的。
+> D8/R8 在 dex 阶段会 fork 多个 worker，每个都占独立堆；在 GitHub 的 4 核 / 16 GB runner 上
+> 用默认的 `-Xmx4096m` 加不限并发会直接把 `:app:mergeExtDexDebug` 撑死
+> （`java.lang.OutOfMemoryError: Java heap space`）。本机内存宽裕的话可以调大，但**别把
+> `workers.max` 去掉**，否则 CI 会再次 OOM。
+
+> 注意：`gradle/wrapper/gradle-wrapper.properties` 里的 `distributionUrl` 是**官方地址**
+> （`services.gradle.org`），clone 下来直接能构建，CI 也用它。
+> 如果你在离线环境，可以改成指向本地已解压的 Gradle 9.8.1（文件里有注释示例），
+> 记得同时把 `validateDistributionUrl` 设为 `false`。
 >
-> ```properties
-> distributionUrl=https\://services.gradle.org/distributions/gradle-9.8.1-bin.zip
-> distributionSha256Sum=dce76f55f8e251a3a1f130eb120f30b3d271de2b76c9b0729d316b5a1b6dc01f
-> ```
->
-> 也可以完全不用 wrapper，直接用本机 Gradle 9.8.1：`gradle :app:assembleDebug`。
->
-> 另外 `local.properties` 里的 `sdk.dir` 也是本机路径，Android Studio 会自动重写。
+> `local.properties` 里的 `sdk.dir` 是本机路径、且已被 `.gitignore` 排除，Android Studio 会自动重写。
 
 ### Android Studio
 
